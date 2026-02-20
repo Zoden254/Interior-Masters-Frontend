@@ -407,6 +407,24 @@
   .underline {
     text-decoration-line: underline;
   }
+  .opacity-3 {
+    opacity: 3%;
+  }
+  .opacity-5 {
+    opacity: 5%;
+  }
+  .opacity-10 {
+    opacity: 10%;
+  }
+  .opacity-20 {
+    opacity: 20%;
+  }
+  .opacity-30 {
+    opacity: 30%;
+  }
+  .opacity-50 {
+    opacity: 50%;
+  }
   .shadow-2xl {
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -466,6 +484,16 @@
       @media (hover: hover) {
         color: var(--color-green-500);
       }
+    }
+  }
+  .active\:opacity-5 {
+    &:active {
+      opacity: 5%;
+    }
+  }
+  .active\:opacity-50 {
+    &:active {
+      opacity: 50%;
     }
   }
   .sm\:mx-6 {
