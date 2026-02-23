@@ -927,3 +927,18 @@
     }
   }
 }
+
+.hero-section {
+  opacity: 0;
+  transform: translateY(20px); /* Starts slightly lower */
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.2s; /* Optional: wait a heartbeat so it's not jarring */
+}
+
+/* 2. Create the animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
